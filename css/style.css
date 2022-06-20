@@ -1,12 +1,29 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+
+image {
+    font: inherit;
+    width: 2px;
+    height: 2px;
+    background-color: #8d8d8d;
+}
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, Helvetica, sans-serif;
 }
 
 .banner-container{
-     background-color: #cacaca;
+     background-color: #06023d;
 }
 .banner-column{
-    background-color:  #8d8d8d;
+    background-color: #06023d;
+}
+.console.log{
+    height: 2px;
+    width: 2px;
 }
 
 .navbar-container{
@@ -16,8 +33,12 @@ body{
     z-index: 2;
 }
 .about-container{
-    background-color: #00BDBD;
+    background-color: #8571cd;
+    color: white;
+    text-align: justify;
+    padding: 10px 0 10px 0;
 }
+
 
 .education-container{
     background-color: #EEEEEE;
@@ -29,10 +50,16 @@ body{
 .redtype-color{
     color:#BA006E;
 }
-
+.skills-container{
+    background-color: #EEEEEE;
+}
 
 .project-container{
     background-color: #cacaca;
+}
+.projects{
+    padding: 10px 0 10px 0; 
+    text-align: center;;
 }
 
 .portfolio-container{
